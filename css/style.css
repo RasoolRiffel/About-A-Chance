@@ -18,9 +18,20 @@ p{
 }
 
 /* Email and social media icons */
+.con-top{
+    padding-top: 20px;
+}
 .head-E{
     color: #477838;
 }
 .header-icons{
     color: #477838;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+/* Logo and navbar */
+.logo-head{
+    max-width: 360px;
+    width: 100%;
 }
