@@ -33,5 +33,21 @@ p{
 /* Logo and navbar */
 .logo-head{
     max-width: 360px;
-    width: 100%;
+}
+
+.blog-nav{
+    text-align: right;
+    padding-top: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+}
+.blog-nav>a{
+    color: #2d2d2d;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.blog-nav>a:hover{
+    color: #477838;
+    font-weight: bold;
 }
