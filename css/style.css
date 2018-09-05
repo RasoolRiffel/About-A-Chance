@@ -1,5 +1,6 @@
 body{
     font-family: Myriad Pro ;
+    font-size: 16px;
 }
 h1{
     font-size: 45px;
@@ -68,5 +69,16 @@ p{
     padding: 5px 10px;
 }
 .don-nav:hover{
-    color: #477838
+    color: #477838;
+    text-decoration: none;
+}
+.active{
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 15px;
+    color: #477838;
+}
+.active:hover{
+    text-decoration: none;
+    color: #477838;
 }
