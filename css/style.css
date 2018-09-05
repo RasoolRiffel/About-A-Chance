@@ -1,5 +1,5 @@
 body{
-    font-family: Myriad Pro, ;
+    font-family: Myriad Pro ;
 }
 h1{
     font-size: 45px;
@@ -50,4 +50,16 @@ p{
 .blog-nav>a:hover{
     color: #477838;
     font-weight: bold;
+}
+
+.don-nav{
+    background-color: #2d2d2d;
+    font-size: 16px;
+    font-family: Myriad Pro;
+    color: #477838;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 0;
+    padding: 5px 10px;
+
 }
