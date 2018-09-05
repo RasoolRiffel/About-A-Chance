@@ -24,8 +24,8 @@
 					</div>
 
 					<div class="col-md-6 nav-col">
-						<nav class="blog-nav" id="navs">
-              <a class="blog-nav-item nav-head active" href="index.html">HOME</a>
+						<nav class="blog-nav" id="myDIV">
+							<span class=""><a class="blog-nav-item nav-head active" href="index.html">HOME</a></span>
 							<a class="blog-nav-item nav-head" href="#">ABOUT</a>
 							<a class="blog-nav-item nav-head" href="#">MENU</a>
 							<a class="blog-nav-item nav-head" href="#">RESERVATIONS</a>
@@ -42,13 +42,13 @@
 
     <script>
       // Add active class to the current button (highlight it)
-      var header = document.getElementById("navs");
-      var btns = header.getElementsByClassName("nav-head");
+      var header = document.getElementById("myDIV");
+      var btns = header.getElementsByClassName("nav");
       for (var i = 0; i < btns.length; i++) {
         btns[i].addEventListener("click", function() {
           var current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace("active", "");
-          this.className += "active";
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
         });
       }
     </script>
