@@ -24,13 +24,13 @@
 					</div>
 
 					<div class="col-md-6 nav-col">
-						<nav class="blog-nav">
-							<span class=""><a class="blog-nav-item active" href="index.html">HOME</a></span>
-							<a class="blog-nav-item" href="about.html">ABOUT</a>
-							<a class="blog-nav-item" href="#">MENU</a>
-							<a class="blog-nav-item" href="#">RESERVATIONS</a>
-							<a class="blog-nav-item" href="#">GALLERY</a>
-							<a class="blog-nav-item" href="#">CONTACT</a>
+						<nav class="blog-nav" id="myDIV">
+							<a class="blog-nav-item nav-head active" href="index.html">HOME</a>
+							<a class="blog-nav-item nav-head" href="#">ABOUT</a>
+							<a class="blog-nav-item nav-head" href="#">MENU</a>
+							<a class="blog-nav-item nav-head" href="#">RESERVATIONS</a>
+							<a class="blog-nav-item nav-head" href="#">GALLERY</a>
+							<a class="blog-nav-item nav-head" href="#">CONTACT</a>
             </nav>
             
             
@@ -40,7 +40,18 @@
 		  </header>
     </div>
 
-
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("myDIV");
+      var btns = header.getElementsByClassName("nav-head");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
