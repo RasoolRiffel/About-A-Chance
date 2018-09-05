@@ -34,7 +34,9 @@ p{
 .logo-head{
     max-width: 360px;
 }
-
+.nav-col{
+    width: 60.5%;
+}
 .blog-nav{
     text-align: right;
     padding-top: 20px;
@@ -51,7 +53,10 @@ p{
     color: #477838;
     font-weight: bold;
 }
-
+.btn-col{
+    width: 5%;
+    padding-right: 0;
+}
 .don-nav{
     background-color: #2d2d2d;
     font-size: 16px;
@@ -61,5 +66,7 @@ p{
     margin-top: 15px;
     border: 0;
     padding: 5px 10px;
-
+}
+.don-nav:hover{
+    color: #477838
 }
