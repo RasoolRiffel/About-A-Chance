@@ -139,3 +139,19 @@ h3{
 .ftr-col{
     margin-top: 6px;
 }
+.ftr-nav{
+    margin-top: 50px;
+}
+.ftr-txt-head{   
+    margin-bottom: 13px;
+    color: #ffffff;
+}
+input{
+    border-radius: 8px;
+    border: 0;
+    color: #2d2d2d;
+    max-width: 225px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
