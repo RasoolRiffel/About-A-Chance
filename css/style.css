@@ -80,6 +80,7 @@ h3{
     text-align-last: center; 
     margin: 0 auto;
     width: 287px;
+    margin-bottom: 50px 
 }
 .wid-icon{
     font-size: 65px;
@@ -94,4 +95,20 @@ h3{
 .team-img{
     max-width: 243px;
     width: 100%;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+.team-txt{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px
+}
+.team-txt-head{
+    margin-top: 25px;    
+    margin-bottom: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
 }
