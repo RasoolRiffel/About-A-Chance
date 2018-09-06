@@ -87,6 +87,11 @@ h3{
     margin-left: 140px;
 }
 
+/*Team div*/
 .team-home{
     background-color: #477838;
+}
+.team-img{
+    max-width: 243px;
+    width: 100%;
 }
