@@ -19,14 +19,11 @@ h3{
 /* Email and social media icons */
 .con-top{
     padding-top: 20px;
-    text-align: center;
 }
-
 .head-E{
     color: #477838;
 }
 .header-icons{
-    display: none;
     color: #477838;
     font-size: 20px;
     padding-left: 20px;

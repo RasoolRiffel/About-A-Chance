@@ -3,13 +3,7 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .header-icons{
-	    display: block;
-	    color: #477838;
-	    font-size: 20px;
-	    padding-left: 20px;
-	}
-
+    
 }
 
 /* Medium devices (desktops, 992px and up) */
