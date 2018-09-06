@@ -3,29 +3,42 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	/*contact info and social media icons*/
+	/*Nav bar*/
+	.btn-col{
+    	width: 100%;
+    	padding-right: 0;
+	}
+	.don-nav{
+    	width: 730px
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+/*contact info and social media icons*/ 
 	.con-top{
 		text-align: left;
 	}
-    .header-icons{
+	.header-icons{
     	display: inline-block;
    		color: #477838;
     	font-size: 20px;
     	padding-left: 20px;
 	}
-	
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
     /*Logo and Nav bar*/
-	.nav-col{
+	.blog-nav{
 		display: inline-block;
     	width: 57.5%;
 	}
 	.btn-col{
     	width: 8%;
     	padding-right: 0;
+	}
+	.don-nav{
+    	width: 80px;
+    }
+    .menu-btn{
+    	display: none;
 	}
 }
 

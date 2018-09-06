@@ -32,10 +32,11 @@ h3{
 .logo-head{
     max-width: 280px;
 }
-.nav-col{
+/*.nav-col{
     display: none;
-}
+}*/
 .blog-nav{
+    display: none;
     text-align: right;
     padding-top: 20px;
 }
@@ -48,10 +49,11 @@ h3{
     color: #477838;
 }
 .btn-col{
-    width: 9%;
+    width: 92%;
     padding-right: 0;
 }
 .don-nav{
+    width:280px; 
     background-color: #2d2d2d;
     font-size: 16px;
     font-family: Myriad Pro;
@@ -65,7 +67,9 @@ h3{
     color: #477838;
     text-decoration: none;
 }
-
+.menu-btn{
+    display: inline-block;
+}
 /*Banner Image*/
 .banner-img{
     width: 100%;
