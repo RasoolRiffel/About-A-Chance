@@ -19,22 +19,21 @@ h3{
 /* Email and social media icons */
 .con-top{
     padding-top: 20px;
+    text-align: center;
 }
 .head-E{
     color: #477838;
 }
 .header-icons{
-    color: #477838;
-    font-size: 20px;
-    padding-left: 20px;
+    display: none;
 }
 
 /* Logo and navbar */
 .logo-head{
-    max-width: 360px;
+    max-width: 280px;
 }
 .nav-col{
-    width: 60.5%;
+    display: none;
 }
 .blog-nav{
     text-align: right;
@@ -49,7 +48,7 @@ h3{
     color: #477838;
 }
 .btn-col{
-    width: 5%;
+    width: 9%;
     padding-right: 0;
 }
 .don-nav{
