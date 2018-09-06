@@ -70,11 +70,23 @@ h3{
 /*Banner Image*/
 .banner-img{
     width: 100%;
+    margin-top:30px;
+    margin-bottom: 50px;
 }
 
 /*Home page widgets*/
 .home-col{
     text-align: justify;
+    text-align-last: center; 
     margin: 0 auto;
     width: 287px;
+}
+.wid-icon{
+    font-size: 65px;
+    color: #477838;
+    margin-left: 140px;
+}
+
+.team-home{
+    background-color: #477838;
 }
