@@ -19,11 +19,14 @@ h3{
 /* Email and social media icons */
 .con-top{
     padding-top: 20px;
+    text-align: center;
 }
+
 .head-E{
     color: #477838;
 }
 .header-icons{
+    display: none;
     color: #477838;
     font-size: 20px;
     padding-left: 20px;
@@ -171,4 +174,18 @@ input{
 }
 .ftr-info{
     margin-top: 20px;
+}
+
+/*About Page CSS*/
+.about-txt{
+    text-align: center;
+    max-width: 780px;
+    width:100%;
+    margin-left: 180px; 
+}
+
+hr{
+    background-color: #477838;
+    border: none;
+    height: 1px;
 }
