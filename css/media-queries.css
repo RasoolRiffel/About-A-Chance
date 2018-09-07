@@ -18,7 +18,7 @@
 
 	/*team div*/
 	.team-img{
-	    margin-left: 235px;
+	    margin-left: 5px;
 	}
 	/*Call to Action buttons*/
 	.ftr-btn{
@@ -87,6 +87,12 @@
 	.about-txt{
 	    max-width: 630px;
 	    margin-left: 140px; 
+	}
+	.left{
+		float: left!important;
+	}
+	.right{
+		float: right!important;
 	}
 }
 

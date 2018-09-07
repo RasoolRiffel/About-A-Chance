@@ -9,33 +9,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/media-queries.css" rel="stylesheet">
   </head>
   <body>
     <div class="container con-top">
-      <strong class="head-E pull-left">Email:</strong> info@fuegotacos.co.za <span class="header-icons pull-right"><a href=""><i class="fas fa-search header-icons"></i></a> <a href=""><i class="fab fa-instagram header-icons"></i></a> <a href=""><i class="fab fa-twitter-square header-icons"></i></a> <a href=""><i class="fab fa-facebook-square header-icons"></i></a> </span>
+      <strong class="head-E">Email:</strong> info@fuegotacos.co.za <span class="header-icons pull-right"><a href=""><i class="fas fa-search header-icons"></i></a> <a href=""><i class="fab fa-instagram header-icons"></i></a> <a href=""><i class="fab fa-twitter-square header-icons"></i></a> <a href=""><i class="fab fa-facebook-square header-icons"></i></a> </span>
      </div>
 
      <div class="container">
-		  <header>			
-				<div class="row">
-					<div class="col-md-4 ">
-						<a href="index.html"><img src="img/Logo.png" alt="About A Chance Logo" class="logo-head"></a>
+      <header>      
+        <div class="row">
+          <div class="col-md-4 ">
+            <a href="index.html"><img src="img/Logo.png" alt="About A Chance Logo" class="logo-head"></a>
 
-					</div>
-
-					<div class="col-md-6 nav-col">
-						<nav class="blog-nav" id="myDIV">
-              <a class="blog-nav-item" href="index.html">HOME</a>
-							<a class="blog-nav-item" href="file.html">ABOUT</a>
-							<a class="blog-nav-item" href="#">MENU</a>
-							<a class="blog-nav-item" href="#">RESERVATIONS</a>
-							<a class="blog-nav-item" href="#">GALLERY</a>
-							<a class="blog-nav-item" href="#">CONTACT</a>
-            </nav>            
           </div>
+          <div class="col-md-6 nav-col">
+          <nav class="blog-nav" id="myDIV">
+              <a class="blog-nav-item" href="index.html">HOME</a>
+              <a class="blog-nav-item" href="about.html">ABOUT</a>
+              <a class="blog-nav-item" href="#">GALLERY</a>
+              <a class="blog-nav-item" href="#">MEDIA FEEDS</a>
+              <a class="blog-nav-item" href="#">RESOURCES</a>
+              <a class="blog-nav-item" href="#">CONTACT</a>
+            </nav> 
+            <span class="menu-btn"><i class=" fas fa-bars"></i></span>
+          </div>          
           <div class="col-md-2 btn-col"><a href="#"><button type="button" class="btn btn-default btn-lg don-nav pull-right">DONATE</button></a></div>
-				</div>			
-		  </header>
+        </div>      
+      </header>
     </div>
 
     <div>
@@ -43,58 +44,86 @@
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <span class="wid-icon"><i class="fas fa-users"></i></span>
-          <h1>ABOUT US</h1>
-          <p class="home-col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a turpis dictum, bibendum orci id, vehicula est. Mauris nec iaculis lectus. Cras tristique sapien vitae lobortis egestas. Suspendisse potenti. Nulla placerat tincidunt lacus sed imperdiet. Aliquam quis posuere nisi, sed posuere metus. Etiam in est a leo blandit sollicitudin.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="wid-icon"><i class="far fa-lightbulb"></i></span>
-          <h1>WHAT WE DO</h1>
-          <p class="home-col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a turpis dictum, bibendum orci id, vehicula est. Mauris nec iaculis lectus. Cras tristique sapien vitae lobortis egestas. Suspendisse potenti. Nulla placerat tincidunt lacus sed imperdiet. Aliquam quis posuere nisi, sed posuere metus. Etiam in est a leo blandit sollicitudin.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="wid-icon"><i class="fas fa-hand-holding-usd"></i></span>
-          <h1>DONATE</h1>
-          <p class="home-col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a turpis dictum, bibendum orci id, vehicula est. Mauris nec iaculis lectus. Cras tristique sapien vitae lobortis egestas. Suspendisse potenti. Nulla placerat tincidunt lacus sed imperdiet. Aliquam quis posuere nisi, sed posuere metus. Etiam in est a leo blandit sollicitudin.</p>
-        </div>
-      </div>
-    </div>
+      <h1>TEAM</h1>
+      <p class="about-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
 
-    <div class="team-home">
-      <div class="container">
-        <h2 class="team-txt-head">TEAM</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <a href=""><img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3></a>
+      <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <span data-toggle="modal" data-target="#myModal"><img src="img/Team-image-home.jpg" class="team-img-pg team-img"></span>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+                    <h2>Nicoe Wessels</h2>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
           </div>
-          <div class="col-md-4">
-            <a href=""><img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3></a>
+          <div class="col-md-4 col-sm-4">
+              <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
           </div>
-          <div class="col-md-4">
-            <a href=""><img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3></a>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
           </div>          
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <a href=""><img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3></a>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
           </div>
-          <div class="col-md-4">
-            <a href=""><img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3></a>
+          <div class="col-md-4 col-sm-4">
+              <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
           </div>
-          <div class="col-md-4">
-            <a href=""><img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3></a>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
+          </div>          
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
           </div>
+          <div class="col-md-4 col-sm-4">
+              <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
+          </div>          
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
+          </div>
+          <div class="col-md-4 col-sm-4">
+              <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <img src="img/Team-image-home.jpg" class="team-img-pg team-img">
+            <h3 class="team-txt-pg">Nicole Wessels</h3>
+          </div>          
         </div>
       </div>
-    </div>
+
+    <hr>
 
     <div class="container">
       <div class="row footer">
@@ -102,7 +131,7 @@
           <h2 class="ftr-cta">LOREM IPSUM DOLOR SIT AMET</h2>
           <h2 class="ftr-cta">LOREM IPSUM DOLOR SIT AMET</h2>
         </div>
-        <div class="col-md-6 ftr-col">
+        <div class="col-md-6 col-xs-12 ftr-col text-center">
           <button class="ftr-btn">VOLUNTEER</button><span class="ftr-p">OR</span><button class="ftr-btn">DONATE</button>
         </div>
       </div>
@@ -111,13 +140,13 @@
     <div class="team-home">
       <div class="container">
         <div class="row ftr-nav">
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-6 col-xs-12 ftr-bar">
             <h2 class="ftr-txt-head">SUBSCRIBE</h2>
             <input type="" placeholder="Name">
             <input type="" placeholder="Email"><br>
             <button class="ftr-btn">SUBSCRIBE</button>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-6 col-xs-12 ftr-bar">
             <h2 class="ftr-txt-head">QUICK LINKS</h2>
             <span class="quick-links">
                 <a href="#"></a><p>DONATE</p>
@@ -128,23 +157,23 @@
                 <a href="#"></a><p>BOARD</p>
             </span>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-12 ftr-bar">
             <h2 class="ftr-txt-head">CONTACT</h2>
             <span class="quick-links">
               <p><strong>EMAIL:</strong> info@fuegotacos.co.za</p>
               <p>PHONE: 074 042 6400</p>
 
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
                   <a href="#"><i class="fas fa-search ftr-icons"></i></a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
                   <a href="#"><i class="fab fa-instagram ftr-icons"></i></a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
                   <a href="#"><i class="fab fa-twitter-square ftr-icons"></i></a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
                   <a href="#"><i class="fab fa-facebook-square ftr-icons"></i></a>
                 </div>                
               </div>
@@ -155,8 +184,8 @@
     </div>
 
     <div class="container ftr-info">
-        <p class="pull-left">Copyright 2018 <i class="far fa-copyright"></i> About A Chance</p>
-        <p class="pull-right">Website design and development by <strong>BLUEPRINT</strong></p>
+        <p class="left text-center">Copyright 2018 <i class="far fa-copyright"></i> About A Chance</p>
+        <p class="right text-center">Website design and development by <strong>BLUEPRINT</strong></p>
       </div>
 
     
