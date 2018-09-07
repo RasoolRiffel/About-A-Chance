@@ -11,6 +11,32 @@
 	.don-nav{
     	width: 730px
     }
+    /*widgets*/
+    .wid-icon{
+	    margin-left: 330px;
+	}
+
+	/*team div*/
+	.team-img{
+	    margin-left: 235px;
+	}
+	/*Call to Action buttons*/
+	.ftr-btn{
+		margin-left: 0;
+	}
+	.ftr-p{
+    	font-size: 25px;
+    	margin-left: 20px;
+    	margin-right: 20px;
+	}
+
+	.ftr-bar{
+		text-align: center;
+	}
+	.menu-btn{
+		display: inline-block;
+		font-size: 20px;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -26,7 +52,7 @@
     	padding-left: 20px;
 	}
     /*Logo and Nav bar*/
-	.blog-nav{
+	.nav-col{
 		display: inline-block;
     	width: 57.5%;
 	}
@@ -39,6 +65,24 @@
     }
     .menu-btn{
     	display: none;
+	}
+	/*widgets*/
+    .wid-icon{
+	    margin-left: 110px;
+	}
+	/*team div*/
+	.team-img{
+    	margin-left: 20px;
+	}
+	.ftr-cta{
+	    margin-top: 0;
+	    text-align: left;
+	}
+	.ftr-bar{
+		text-align: left;
+	}
+	.ftr-btn{
+    	max-width: 180px;
 	}
 }
 
@@ -54,5 +98,18 @@
 	.btn-col{
     	width: 5%;
     	padding-right: 0;
+	}
+	/*widgets*/
+    .wid-icon{
+	    margin-left: 150px;
+	}
+	/*team div*/
+	.team-img{
+    	margin-left: 50px;
+	}
+	/*footer*/
+	.ftr-btn{
+	    margin-left: 0;
+	    max-width: 230px
 	}
 }
