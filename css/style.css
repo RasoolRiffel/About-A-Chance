@@ -192,15 +192,3 @@ hr{
     border: none;
     height: 1px;
 }
-/*test*/
-.topnav{
-    overflow:hidden;
-}
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-.topnav .icon{
-    display: none;
-}
-

@@ -33,10 +33,6 @@
 	.ftr-bar{
 		text-align: center;
 	}
-	.menu-btn{
-		display: inline-block;
-		font-size: 20px;
-	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -52,9 +48,10 @@
     	padding-left: 20px;
 	}
     /*Logo and Nav bar*/
-	.nav-col{
+	.nav-col .responsive{
 		display: inline-block;
     	width: 57.5%;
+    	position: relative;
 	}
 	.btn-col{
     	width: 8%;
@@ -65,6 +62,7 @@
     }
     .menu-btn{
     	display: none;
+    	position: absolute;
 	}
 	/*widgets*/
     .wid-icon{
