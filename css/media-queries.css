@@ -33,6 +33,10 @@
 	.ftr-bar{
 		text-align: center;
 	}
+	.about-txt{
+	    max-width: 530px;
+	    margin-left: 90px; 
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -48,10 +52,9 @@
     	padding-left: 20px;
 	}
     /*Logo and Nav bar*/
-	.nav-col .responsive{
+	.nav-col{
 		display: inline-block;
     	width: 57.5%;
-    	position: relative;
 	}
 	.btn-col{
     	width: 8%;
@@ -62,7 +65,6 @@
     }
     .menu-btn{
     	display: none;
-    	position: absolute;
 	}
 	/*widgets*/
     .wid-icon{
@@ -81,6 +83,10 @@
 	}
 	.ftr-btn{
     	max-width: 180px;
+	}
+	.about-txt{
+	    max-width: 630px;
+	    margin-left: 140px; 
 	}
 }
 
@@ -109,5 +115,9 @@
 	.ftr-btn{
 	    margin-left: 0;
 	    max-width: 230px
+	}
+	.about-txt{
+	    max-width: 760px;
+	    margin-left: 190px; 
 	}
 }
