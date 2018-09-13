@@ -224,3 +224,38 @@ input{
 .head-col{
     width:700px;
 }
+.wwd{
+    margin-left: 160px;
+    margin-bottom: 27px;
+}
+.wwd-par{
+    width: 620px;
+    margin-left: 260px!important;
+    margin-bottom: 20px;
+}
+.wwd-txt{
+    margin-bottom: 30px;
+}
+.proj-btn{
+    margin-left: 160px!important;
+    margin-bottom: 50px;
+}
+.proj-img{
+    width: 100%;
+    margin-left: 60px;
+}
+.proj-txt{
+    width: 360px;
+    margin-left: 100px;
+}
+.res-lnks{
+    color: #2d2d2d;
+}
+.res-lnks:hover{
+    text-decoration: none;
+    color: #477838;
+}
+.cntct-row{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
